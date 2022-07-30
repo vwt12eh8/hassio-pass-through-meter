@@ -1,0 +1,28 @@
+{
+  "title": "Pass-Through Meter",
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "device": "Device",
+          "hide_members": "Hide members",
+          "inputs": "Input entities",
+          "name": "Title",
+          "outputs": "Output entities"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "device": "Device",
+          "hide_members": "Hide members",
+          "inputs": "Input entities",
+          "outputs": "Output entities"
+        }
+      }
+    }
+  }
+}

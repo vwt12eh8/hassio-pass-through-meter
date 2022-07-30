@@ -1,0 +1,5 @@
+{
+  "name": "Pass-Through Meter",
+  "render_readme": true,
+  "homeassistant": "2022.7.0"
+}

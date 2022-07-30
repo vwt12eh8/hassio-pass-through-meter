@@ -1,0 +1,12 @@
+{
+  "domain": "pass_through_meter",
+  "name": "Pass-Through Meter",
+  "version": "1.0",
+  "documentation": "https://github.com/vwt12eh8/hassio-pass-through-meter",
+  "issue_tracker": "https://github.com/vwt12eh8/hassio-pass-through-meter/issues",
+  "config_flow": true,
+  "codeowners": [
+    "@vwt12eh8"
+  ],
+  "iot_class": "calculated"
+}

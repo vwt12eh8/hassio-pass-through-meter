@@ -1,0 +1,28 @@
+{
+  "title": "パススルーメーター",
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "device": "所属デバイス",
+          "hide_members": "メンバーを非表示にする",
+          "inputs": "入力エンティティ",
+          "name": "タイトル",
+          "outputs": "出力エンティティ"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "device": "所属デバイス",
+          "hide_members": "メンバーを非表示にする",
+          "inputs": "入力エンティティ",
+          "outputs": "出力エンティティ"
+        }
+      }
+    }
+  }
+}
