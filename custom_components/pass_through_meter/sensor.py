@@ -124,6 +124,9 @@ def _update(event: Event, input: TotalEntity, output: TotalEntity, through: Thro
     new_state: State = event.data.get("new_state")
     eid: str = event.data["entity_id"]
 
+    if not new_state or not old_state:
+        return
+
     for x in [input, output]:
         x._attr_native_unit_of_measurement = new_state.attributes.get(
             ATTR_UNIT_OF_MEASUREMENT, None)
